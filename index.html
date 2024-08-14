@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body style="display: flex;padding: 0px;margin: 0px;justify-content: center;align-items: center;background-color: #C3CEE1;min-height: 100vh;">
+
+    <div class="form">
+        <div class="left_form">
+            <div class="center_form">
+                <p class="title">Signature Creation</p>
+                <div class="fields">
+                    <div class="input_holder">
+                        <p class="field_title">Full Names</p>
+                        <input class="name" placeholder="Mathew Walton" type="text">
+                    </div>
+                    <div class="input_holder">
+                        <p class="field_title">Position</p>
+                        <input class="position" placeholder="Marketing Manager" type="text">
+                    </div>
+                    <div class="input_holder">
+                        <p class="field_title">Brands</p>
+                        <input class="brands" placeholder="Savanna | Extreme | Bernini" type="text">
+                    </div>
+                    <div class="input_holder">
+                        <p class="field_title">Cell number</p>
+                        <p class="error cell_error"></p>
+                        <input class="cell" placeholder="+27 889 89067" type="text">
+                    </div>
+                </div> <br> <br>
+                <div class="submit_holder">
+                    <button onclick="submit()">SUBMIT</button>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="right_form">
+            <img src="./assets/logo.png" alt="">
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
