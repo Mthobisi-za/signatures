@@ -53,19 +53,19 @@ function submit() {
                                                                                 <tbody style="vertical-align: top; font-size: 16px; line-height: 120%;">
                                                                                     <tr>
                                                                                         <td style="padding: 10px; word-break: break-word;  " width="10%">
-                                                                                            <img alt="" src="../assets/phone.png" width="30px">
+                                                                                            <img alt="" src="./assets/phone.png" width="30px">
                                                                                         </td>
                                                                                         <td style="padding: 10px; word-break: break-word; font-size: 20px;font-family: 'Gibson';color: #102C48;" width="80%">${cell.value}</td>
                                                                                     </tr>
                                                                                     <tr>
                                                                                         <td style="padding: 10px; word-break: break-word; " width="10%">
-                                                                                            <img alt="" src="../assets/link.png" width="30px" />
+                                                                                            <img alt="" src="./assets/link.png" width="30px" />
                                                                                         </td>
                                                                                         <td style="padding: 10px; word-break: break-word;font-size: 20px;font-family: 'Gibson';color: #102C48;" width="80%">www.heinekenbeverages.co.za</td>
                                                                                     </tr>
                                                                                     <tr>
                                                                                         <td style="padding: 10px; word-break: break-word;  " width="10%">
-                                                                                            <img alt="" src="../assets/Home.png" width="30px" />
+                                                                                            <img alt="" src="./assets/Home.png" width="30px" />
                                                                                         </td>
                                                                                         <td style="padding: 10px; word-break: break-word;font-size: 20px;font-family: 'Gibson';color: #102C48; " width="80%">Libertas Parva, Aan-de-Wagen Road, Stellenbosch, 7600, South Africa</td>
                                                                                     </tr>
@@ -97,7 +97,7 @@ function submit() {
                                                         <tr>
                                                             <td class="pad" style="width:100%;">
                                                                 <div align="center" class="alignment" style="line-height:10px">
-                                                                    <div style="max-width: 450px;"><img height="auto" src="../assets/right_b.png" style="display: block; height: auto; border: 0; width: 100%; border-radius: 0px 12px 12px 0px;" width="450" /></div>
+                                                                    <div style="max-width: 450px;"><img height="auto" src="./assets/right_b.png" style="display: block; height: auto; border: 0; width: 100%; border-radius: 0px 12px 12px 0px;" width="450" /></div>
                                                                 </div>
                                                             </td>
                                                         </tr>
