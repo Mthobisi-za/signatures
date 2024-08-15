@@ -26,42 +26,53 @@ function verify() {
 
 function submit() {
     var str = `
-    <table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family: 'Gibson', Arial, sans-serif; max-width: 900px;">
+   <table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family: 'Gibson', Arial, sans-serif; max-width: 900px;">
         <tr>
             <td bgcolor="#ffff" width="50%" valign="middle" style="background-color: #fff; border-top-left-radius: 12px; border-bottom-left-radius: 12px; padding-right: 20px;padding-left: 20px; vertical-align: middle; height: 100%;">
                 <table cellpadding="0" cellspacing="0" border="0" width="100%" style="height: 100%;">
                     <tr>
-                        <td style="font-size: 35px; font-weight: 600; color: #102C48; line-height: 1; padding-bottom: 5px;">
+                        <td style="font-size: 24px; font-weight: 600; color: #102C48; line-height: 1; padding-bottom: 5px;">
                             ${nameInput.value}
                         </td>
                     </tr>
                     <tr>
-                        <td style="font-size: 25px; color: #102C48; padding-bottom: 15px;">
+                        <td style="font-size: 16px; color: #102C48; padding-bottom: 15px;">
                             ${position.value}: ${brands.value}
                         </td>
                     </tr>
+
+                </table>
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" style="height: 100%;">
+
                     <tr>
-                        <td style="font-size: 20px; color: #102C48; padding-bottom: 10px;">
-                            <img src="./assets/phone.png" alt="Phone" style="vertical-align: middle;middle;padding-right: 10px;" width="30" height="30" />&nbsp; 
+                        <td style="font-size: 20px; color: #102C48; padding-bottom: 10px;width: 15%;">
+                            <img src="./assets/phone.png" alt="Phone" style="vertical-align: middle;padding-right: 10px;" width="30" height="30" />&nbsp;
+
+                        </td>
+                        <td>
                             <span> &nbsp;${cell.value}</span>
                         </td>
                     </tr>
                     <tr>
-                        <td style="font-size: 20px; color: #102C48; padding-bottom: 10px;">
-                            <img src="./assets/link.png" alt="Email" style="vertical-align: middle;padding-right: 10px;" width="30" height="30" /> &nbsp; 
-                            <span> &nbsp;www.heinekenbeverages.co.za</span>
+                        <td style="font-size: 20px; color: #102C48; padding-bottom: 10px;width: 15%;">
+                            <img src="./assets/link.png" alt="Email" style="vertical-align: middle;padding-right: 10px;" width="30" height="30" /> &nbsp;
+
                         </td>
+                        <td> <span> &nbsp;www.heinekenbeverages.co.za</span></td>
                     </tr>
                     <tr>
-                        <td style="font-size: 20px; color: #102C48;">
-                            <img src="./assets/Home.png" alt="Address" style="vertical-align: middle;padding-right: 10px;" width="30" height="30" />&nbsp; 
+                        <td style="font-size: 20px; color: #102C48;width: 15%;">
+                            <img src="./assets/Home.png" alt="Address" style="vertical-align: middle;padding-right: 10px;" width="30" height="30" />&nbsp;
+
+                        </td>
+                        <td>
                             <span> &nbsp;Libertas Parva, Aan-de-Wagen Road, Stellenbosch, 7600, South Africa</span>
                         </td>
                     </tr>
                 </table>
             </td>
             <td width="50%" valign="middle" style="text-align: right;">
-                <img src="./assets/right_b.png" alt="Placeholder Image" style="width: 100%; max-width: 100%; height: auto; margin-right: 0px; border-top-right-radius: 12px; border-bottom-right-radius: 12px;" />
+                <img src="./assets/gif animation.gif" alt="Placeholder Image" style="width: 100%; max-width: 100%; height: auto; margin-right: 0px; border-top-right-radius: 12px; border-bottom-right-radius: 12px;" />
             </td>
         </tr>
     </table>
