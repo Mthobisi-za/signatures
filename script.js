@@ -46,27 +46,27 @@ function submit() {
 
                     <tr>
                         <td style="font-size: 20px; color: #102C48; padding-bottom: 10px;width: 15%;">
-                            <img src="./assets/phone.png" alt="Phone" style="vertical-align: middle;padding-right: 10px;" width="30" height="30" />&nbsp;
+                            <img src="./assets/phone.png" alt="Phone" style="vertical-align: middle;padding-right: 10px;" width="30" height="30" />
 
                         </td>
                         <td>
-                            <span> &nbsp;${cell.value}</span>
+                            <span>${cell.value}</span>
                         </td>
                     </tr>
                     <tr>
                         <td style="font-size: 20px; color: #102C48; padding-bottom: 10px;width: 15%;">
-                            <img src="./assets/link.png" alt="Email" style="vertical-align: middle;padding-right: 10px;" width="30" height="30" /> &nbsp;
+                            <img src="./assets/link.png" alt="Email" style="vertical-align: middle;padding-right: 10px;" width="30" height="30" /> 
 
                         </td>
-                        <td> <span> &nbsp;www.heinekenbeverages.co.za</span></td>
+                        <td> <span>www.heinekenbeverages.co.za</span></td>
                     </tr>
                     <tr>
                         <td style="font-size: 20px; color: #102C48;width: 15%;">
-                            <img src="./assets/Home.png" alt="Address" style="vertical-align: middle;padding-right: 10px;" width="30" height="30" />&nbsp;
+                            <img src="./assets/Home.png" alt="Address" style="vertical-align: middle;padding-right: 10px;" width="30" height="30" />
 
                         </td>
                         <td>
-                            <span> &nbsp;Libertas Parva, Aan-de-Wagen Road, Stellenbosch, 7600, South Africa</span>
+                            <span>Libertas Parva, Aan-de-Wagen Road, Stellenbosch, 7600, South Africa</span>
                         </td>
                     </tr>
                 </table>
