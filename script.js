@@ -28,7 +28,7 @@ function submit() {
     var str = `
     <table cellpadding="0" cellspacing="0" border="0" width="100%" style="font-family: 'Gibson', Arial, sans-serif; max-width: 900px;">
         <tr>
-            <td width="50%" valign="middle" style="background-color: #fff; border-top-left-radius: 12px; border-bottom-left-radius: 12px; padding-right: 20px;padding-left: 20px; vertical-align: middle; height: 100%;">
+            <td bgcolor="#ffff" width="50%" valign="middle" style="background-color: #fff; border-top-left-radius: 12px; border-bottom-left-radius: 12px; padding-right: 20px;padding-left: 20px; vertical-align: middle; height: 100%;">
                 <table cellpadding="0" cellspacing="0" border="0" width="100%" style="height: 100%;">
                     <tr>
                         <td style="font-size: 35px; font-weight: 600; color: #102C48; line-height: 1; padding-bottom: 5px;">
@@ -42,20 +42,20 @@ function submit() {
                     </tr>
                     <tr>
                         <td style="font-size: 20px; color: #102C48; padding-bottom: 10px;">
-                            <img src="./assets/phone.png" alt="Phone" style="vertical-align: middle;" width="30" height="30" />
-                            <span>${cell.value}</span>
+                            <img src="./assets/phone.png" alt="Phone" style="vertical-align: middle;middle;padding-right: 10px;" width="30" height="30" />&nbsp; 
+                            <span> &nbsp;${cell.value}</span>
                         </td>
                     </tr>
                     <tr>
                         <td style="font-size: 20px; color: #102C48; padding-bottom: 10px;">
-                            <img src="./assets/link.png" alt="Email" style="vertical-align: middle;" width="30" height="30" />
-                            <span>www.heinekenbeverages.co.za</span>
+                            <img src="./assets/link.png" alt="Email" style="vertical-align: middle;padding-right: 10px;" width="30" height="30" /> &nbsp; 
+                            <span> &nbsp;www.heinekenbeverages.co.za</span>
                         </td>
                     </tr>
                     <tr>
                         <td style="font-size: 20px; color: #102C48;">
-                            <img src="./assets/Home.png" alt="Address" style="vertical-align: middle;" width="30" height="30" />
-                            <span>Libertas Parva, Aan-de-Wagen Road, Stellenbosch, 7600, South Africa</span>
+                            <img src="./assets/Home.png" alt="Address" style="vertical-align: middle;padding-right: 10px;" width="30" height="30" />&nbsp; 
+                            <span> &nbsp;Libertas Parva, Aan-de-Wagen Road, Stellenbosch, 7600, South Africa</span>
                         </td>
                     </tr>
                 </table>
